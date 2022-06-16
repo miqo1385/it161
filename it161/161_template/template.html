@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>Roberto Bolaño</title>
+  <meta name="robots" content="noindex,nofollow" />
+  <meta name="viewport" content="width=device-width" />
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="css1/portal1.css" />
+  <link rel="stylesheet" href="css1/nav1.css" />
+ </head>
+ <body>
+     <header>
+     <h1>El Rincon de Bolaño </h1>
+     <nav class="topnav" id="myTopnav">
+       <a href="home.html" class="active">Home Page</a>
+       <a href="hislife.html">His Life</a>
+       <a href="bibliography.html">Bibliography</a>
+       <a href="videos.html">Videos</a>
+       <a href="wheretobuy.html">Where To Buy</a>
+       <a href="contact.php">Contact Us</a>
+       <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+     </nav>
+      </header>
+     
+   <div class="wrapper">
+    <img class="desktop" src="images1/Roberto-Bolaño3.jpg" alt="fote de Roberto" />
+       
+    <img class="tablet" src="images1/Roberto-Bolaño3.jpg" alt="fote de Roberto" />
+      
+    <img class="phone" src="images1/Roberto-Bolaño3.jpg" alt="fote de Roberto" />
+      
+      <h2 class="subheader">Roberto Bolaño</h2>
+      <p>(1953-2003) Chilean narrator and poet, he is the author of storybooks,</p>
+      <p>novels and non-fiction books. He is considered one of the most</p>
+      <p>important figures in contemporary Spanish literature. he was</p>
+      <p>awarded, among otp, with the Romulo Gallego, Salambo, Altazor,</p>
+      <p>National Book Critics Circle Award and City of Barcelona award</p>
+       
+    <footer>
+      <p><small>&copy; 2022 by 
+          <a href="contact.php">Miguel Quintana</a>, All Rights Reserved ~ 
+          <a id="html-checker" href="#">Check HTML</a> ~ 
+          <a id="css-checker" href="#">Check CSS</a></small>
+     </p>
+    </footer>
+  </div>
+     
+
+  <script>
+    document.getElementById("html-checker").setAttribute("href","https://validator.w3.org/nu/?doc=" + location.href);
+      
+    document.getElementById("css-checker").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);  
+    
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }   
+ </script>
+     
+ </body>
+</html>
